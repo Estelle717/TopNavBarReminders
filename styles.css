@@ -28,6 +28,8 @@
 
  /* The goal is to try and add a red border around this specific anchor  */ 
  .topnav a#more {
-    border-color: red;
-    border: 5px
+    /*border-color: red;*/
+    /*border: 5px*/
+    border: 5px solid red; 
+    /* Add a red border but also add 5px of black under(only under) the top nav bar and disaligned the more by centering it with the extra 5px */
   } 
