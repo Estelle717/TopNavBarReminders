@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Habits Reminders",
+    "description": "This app will periodically remind you of daily habits such as drinking a glass of water",
+    "version": "1.0",
+    "action": {
+      "default_popup": "reminders.html",
+      "default_icon": "lightbulb-64.png"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
