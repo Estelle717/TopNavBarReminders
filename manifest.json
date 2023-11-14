@@ -5,7 +5,7 @@
     "version": "1.0",
     "action": {
       "default_popup": "reminders.html",
-      "default_icon": "lightbulb-64.png"
+      "default_icon": "images/lightbulb-64.png"
     },
     "permissions": [
       "storage"
