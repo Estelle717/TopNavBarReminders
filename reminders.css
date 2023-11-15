@@ -1,7 +1,11 @@
 
 .notification {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
+    padding: 2px;
 }
 
