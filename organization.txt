@@ -1,0 +1,32 @@
+
+----fonction compareDate()
+will take the current date and check if it is the same as the one in local storage
+	- si oui, declenche checkForPastReminders()
+	- si non, effacement du local storage et retour a zero --> utilise clearLocalStorage()
+		* garder en memoire les habitudes programmees et effacer seulement si elles ont ete faites ou non ?
+
+----fonction clearLocalStorage()
+clears local storage if compareDate() = false
+
+----fonction habitTimer()
+displays an alert 5 minutes after the reminder time
+	- rings once, makes low level non-aggressive sound
+
+----fonction isBoxChecked()
+verifies whether the box is checked
+	- si non, rien de se passe
+	- si oui, deux actions a executer
+		* faire disparaitre la notification --> utilise makeNotificationDisappear()
+		* garder en memoire que la boite a ete cochee --> utilise rememberNotification()
+
+----fonction makeNotificationDisappear()
+notification goes to display: none
+
+----fonction rememberNotification()
+stores in local storage that the notification was done
+	- notification does not reappear if Chrome is closed and reopened later
+
+----checkForPastReminders()
+check if there are reminder times that happened since last closing of Chrome
+	- si non, rien ne se passe
+	- si oui, affiche les notifications
