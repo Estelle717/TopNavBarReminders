@@ -13,6 +13,10 @@ const makeNotificationDisappear = () => {
     // for (let i = 0; i < notification.length; i++) {
     //     notification[i].style.display = 'none';
     // }
+    //alert("Is this working?") // not working
+    //document.getElementsByClassName("buttonClose").innerHTML = "Y"; // not working either
+    document.getElementsByClassName("buttonClose").style.display = 'none';
 }
-//document.getElementsByClassName("buttonClose").addEventListener("click", makeNotificationDisappear)
+document.getElementsByClassName("buttonClose").addEventListener("click", makeNotificationDisappear())
 
+//makeNotificationDisappear()
