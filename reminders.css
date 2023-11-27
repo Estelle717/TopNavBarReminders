@@ -19,3 +19,11 @@ body {
 .buttonClose:onclick {
     display: none;
 }
+
+.checkboxNotification {
+    border: solid;
+    border-color: black;
+    margin: none;
+    box-sizing: border-box;
+}
+
