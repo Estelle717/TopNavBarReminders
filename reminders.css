@@ -16,14 +16,11 @@ body {
     margin: 5px;
 }
 
-.buttonClose:onclick {
-    display: none;
-}
-
 .checkboxNotification {
     border: solid;
     border-color: black;
-    margin: none;
+    margin: 0px;
+    size: 16px;
     box-sizing: border-box;
 }
 
